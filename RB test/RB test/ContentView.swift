@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// percents
 let WINS = 60
 let LOSSES = 25
 let RETURNS = 15
