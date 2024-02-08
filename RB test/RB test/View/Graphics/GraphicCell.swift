@@ -28,6 +28,7 @@ struct GraphicCell: View {
 
             Text(text)
                 .font(.footnote)
+                .bold()
         }
     }
 }

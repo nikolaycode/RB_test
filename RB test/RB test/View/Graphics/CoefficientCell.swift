@@ -37,6 +37,7 @@ struct CoefficientCell: View {
             Text(text)
                 .foregroundStyle(.gray)
                 .font(.footnote)
+                .bold()
             
             Spacer()
             
