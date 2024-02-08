@@ -37,11 +37,11 @@ struct CoefficientCell: View {
             Text(text)
                 .foregroundStyle(.gray)
                 .font(.footnote)
-                .bold()
             
             Spacer()
             
             Text(String(format: "%.2f", coefficient))
+                .bold()
         }
     }
 }
